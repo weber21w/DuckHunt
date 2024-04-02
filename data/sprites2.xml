@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+	<input file="../data/png/sprites2-16.png" type="png" tile-width="8" tile-height="8" />
+
+	<output file="../data/sprites2.inc">
+
+		<tiles var-name="sprite_data2"/>
+
+		<maps pointers-size="8"> 
+			<map var-name="map_cursor2" left="0" top="1" width="2" height="2"/>
+		</maps>
+
+	</output>
+
+</gfx-xform>
